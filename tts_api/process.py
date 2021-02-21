@@ -67,7 +67,7 @@ def startmodel() -> None:
     synthesizer = Synthesizer(
         config_path=config_path,
         model_path=model_path,
-        use_cuda=False,
+        use_cuda=True,
         vocoder_path=vocoder_path,
         vocoder_config_path=vocoder_config_path,
     )
